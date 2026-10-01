@@ -1,6 +1,6 @@
-btw this was all vibecoded
+send this to your agent and say make me something like this
 
-og idea from @tobynjacobs. implementation entirely mine
+og idea from @tobynjacobs. implementation vibecoded on my own
 
 # Minecraft inside Monster Hunter: World and Elden Ring (Mac + CrossOver)
 
