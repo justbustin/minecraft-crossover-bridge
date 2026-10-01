@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "erbridge:status",
+    "erbridge:host_death"
+  ]
+}

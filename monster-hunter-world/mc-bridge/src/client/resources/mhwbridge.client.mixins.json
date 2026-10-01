@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"package": "dev.mhwmc.bridge.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"FogRendererMixin",
+		"GameRendererMixin",
+		"GuiMixin",
+		"LevelRendererMixin",
+		"MinecraftMixin",
+		"RenderSystemMixin",
+		"RenderTargetMixin",
+		"ScreenMixin",
+		"WindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

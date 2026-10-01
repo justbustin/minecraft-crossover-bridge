@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.mhwmc.bridge.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExplosionMixin",
+		"PlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

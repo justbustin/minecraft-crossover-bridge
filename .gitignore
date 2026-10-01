@@ -1,0 +1,14 @@
+# Windows DLL builds
+/monster-hunter-world/mhw-bridge/build/
+/elden-ring/er-bridge/build/
+
+# Minecraft dev runs (worlds, logs, options) and Gradle state; each mod's own .gitignore covers the rest
+run/
+.gradle/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

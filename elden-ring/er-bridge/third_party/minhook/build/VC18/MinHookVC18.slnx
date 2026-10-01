@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Win32" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="libMinHook.vcxproj" Id="F142A341-5EE0-442D-A15F-98AE9B48DBAE" />
+  <Project Path="MinHook.vcxproj" Id="027FAC75-3FDB-4044-8DD0-BC297BD4C461" />
+</Solution>

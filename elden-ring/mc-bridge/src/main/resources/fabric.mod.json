@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "erbridge",
+	"version": "${version}",
+	"name": "ER Bridge",
+	"description": "Passthrough bridge that runs Minecraft inside Elden Ring.",
+	"authors": ["justbustin"],
+	"license": "MIT",
+	"icon": "assets/erbridge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.ermc.bridge.ErBridgeMod"],
+		"client": ["dev.ermc.bridge.client.ErBridgeClient"]
+	},
+	"mixins": [
+		"erbridge.mixins.json",
+		{
+			"config": "erbridge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

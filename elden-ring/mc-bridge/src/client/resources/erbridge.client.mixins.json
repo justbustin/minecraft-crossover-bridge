@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "dev.ermc.bridge.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ClientLevelMixin",
+		"CameraMixin",
+		"DefaultPlayerSkinMixin",
+		"FogRendererMixin",
+		"GameRendererMixin",
+		"GuiMixin",
+		"LevelRendererMixin",
+		"MinecraftMixin",
+		"RenderSystemMixin",
+		"RenderTargetMixin",
+		"ScreenMixin",
+		"WindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

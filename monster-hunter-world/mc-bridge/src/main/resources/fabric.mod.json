@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "mhwbridge",
+	"version": "${version}",
+	"name": "MHW Bridge",
+	"description": "Passthrough bridge that runs Minecraft inside Monster Hunter: World.",
+	"authors": ["justbustin"],
+	"license": "MIT",
+	"icon": "assets/mhwbridge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.mhwmc.bridge.MhwBridgeMod"],
+		"client": ["dev.mhwmc.bridge.client.MhwBridgeClient"]
+	},
+	"mixins": [
+		"mhwbridge.mixins.json",
+		{
+			"config": "mhwbridge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

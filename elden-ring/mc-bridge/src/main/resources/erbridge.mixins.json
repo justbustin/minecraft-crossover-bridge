@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.ermc.bridge.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExplosionMixin",
+		"LivingEntityMixin",
+		"MobMixin",
+		"PlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

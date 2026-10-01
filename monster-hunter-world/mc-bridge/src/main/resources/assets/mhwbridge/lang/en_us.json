@@ -1,0 +1,14 @@
+{
+	"block.mhwbridge.terrain": "MHW Terrain",
+	"category.mhwbridge": "MHW Bridge",
+	"key.mhwbridge.camera_mode": "Switch camera mode (drive MHW / follow MHW)",
+	"key.mhwbridge.overlay": "Switch control to MHW (F8 in MHW switches back)",
+	"key.mhwbridge.status": "Debug view (status, hitboxes)",
+	"key.mhwbridge.hunter": "Hunter stands in for you (on/off)",
+	"key.mhwbridge.passthrough": "Draw Minecraft inside MHW (occlusion)",
+	"death.attack.mhwbridge.monster": "%1$s was slain by %2$s",
+	"death.attack.mhwbridge.monster_hit": "%1$s was slain by a monster",
+	"death.attack.mhwbridge.monster_hit.player": "%1$s was slain by a monster while fighting %2$s",
+	"death.attack.mhwbridge.status": "%1$s succumbed to a status ailment",
+	"death.attack.mhwbridge.status.player": "%1$s succumbed to a status ailment while fighting %2$s"
+}
